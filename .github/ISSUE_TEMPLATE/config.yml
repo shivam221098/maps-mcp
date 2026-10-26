@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ideas and design questions
+    url: https://github.com/shivam221098/maps-mcp/discussions
+    about: Discuss ideas, ask questions and vote on design decisions before opening an issue.

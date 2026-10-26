@@ -1,0 +1,32 @@
+name: Story
+description: A deliverable piece of user-visible value
+title: "[Story] "
+labels: ["story"]
+body:
+  - type: input
+    id: epic
+    attributes:
+      label: Parent epic
+      description: Issue number of the epic, e.g. `#12`
+    validations:
+      required: true
+  - type: textarea
+    id: story
+    attributes:
+      label: User story
+      description: As a <who>, I want <what>, so that <why>.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: A checklist of verifiable outcomes.
+      placeholder: "- [ ] ..."
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Provider docs, usage policies, design links, dependencies.

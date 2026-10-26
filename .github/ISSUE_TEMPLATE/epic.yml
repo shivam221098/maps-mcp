@@ -1,0 +1,29 @@
+name: Epic
+description: A large body of work that groups several stories
+title: "[Epic] "
+labels: ["epic"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What outcome does this epic deliver, and why does it matter?
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: What is in scope and out of scope?
+    validations:
+      required: true
+  - type: textarea
+    id: stories
+    attributes:
+      label: Stories
+      description: Task list linking the stories, e.g. `- [ ] #123`
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks and open questions
+      description: Link the related Discussions.
